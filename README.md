@@ -1,4 +1,4 @@
-## Tina's JavvaScript Note
+## Tina's JavaScript Note
 > 记录日常开发总结、新技术的实践理解、基础的再次巩固扎实，逐步完善
 
 ### 更新日志
