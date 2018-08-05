@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>使用customElemet与solt标签与temepate标签构建自定元素</title>
+	<style>
+		dl { margin-left: 6px; }
+  		dt { font-weight: bold; color: #217ac0; font-size: 110% }
+		dt { font-family: Consolas, "Liberation Mono", Courier }
+		dd { margin-left: 16px }
+	</style>
+</head>
+<body>
+	 <!-- 1. 定义template元素 -->
+	<template id="element-details-template">
+
+		 <!-- css 集合仅仅作用于template内,直接在template中写入style会直接别识别 -->
+		<style>
+			details {font-family: "Open Sans Light",Helvetica,Arial}
+       		.name {font-weight: bold; color: #217ac0; font-size: 120%}
+     		 h4 { margin: 10px 0 -8px 0; }
+     		 h4 span { background: #217ac0; padding: 2px 6px 2px 6px }
+     		 h4 span { border: 1px solid #cee9f9; border-radius: 4px }
+     		 h4 span { color: white }
+      		.attributes { margin-left: 22px; font-size: 90% }
+      		.attributes p { margin-left: 16px; font-style: italic }
+		</style>
+
+		<details>
+			<summary>
+				<span>
+					<code class="name">
+						&lt;
+						<slot name="element-name">need name</slot>
+						&gt;
+					</code>
+					<i class="desc">
+						<slot name="description">neww description</slot>
+					</i>
+				</span>
+			</summary>
+			<div class="attribute">
+				<h4>
+					<span>Attribute</span>
+					<slot name="attributes">
+						<p>none</p>
+					</slot>
+				</h4>
+			</div>
+		</details>
+
+	</template>
+
+	<!--  4.1 模板的使用-->
+	<element-details-template>
+		<span slot="element-name">模板使用一</span>
+		<span slot="description">a girl</span>
+		<p slot="attributes">123123</p>
+	</element-details-template>
+
+	<!-- 4.2 模板的使用 -->
+	<element-details-template>
+		<span slot="element-name">模板使用二</span>
+		<span slot="description">a girl</span>
+		<dl slot="attributes">
+			<dt>name</dt>
+			<dd>The name of the slot.</dd>
+		</dl>
+	</element-details-template>
+	
+
+	<script>
+		// 2. 定义元素
+		class ElementDetail extends HTMLElement {
+			
+			constructor() {
+
+				// 总是必须首先调用该函数
+				super();
+
+				// 功能函数写这里
+				let templateContent = document.getElementById('element-details-template').content;
+
+				// 将影子根(shadow root)挂载到自定义元素下
+				const shadowRoot = this.attachShadow({mode: 'open'});
+
+
+				// 添加影子树子元素,深度克隆
+				shadowRoot.appendChild(templateContent.cloneNode(true));
+			}
+		}
+		
+		// 3. 注册元素
+		customElements.define('element-details-template', ElementDetail)
+	</script>
+</body>
+</html>
