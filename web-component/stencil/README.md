@@ -1,15 +1,15 @@
-# Stencli 笔记
+# Stencli 笔记(-) 入门介绍
 ## 是什么？
 > 通俗的来讲，steniljs是一个编译器帮助我们构建适用于任何的JavaScript工程（可以使Angular, React, Vue, 原始写法的工程, Ember等）的Web Component。 
 ## 特性
-+ 使用JSX 和Typescript相结合的语法，乘坐TSX
++ 使用JSX 和Typescript相结合的语法，称作TSX （这样的方式很容易接受）
 + 支持virtual dom
 + Async rendering
 + reactive data-bingding
 ## 能做什么？
 + 构建适用于多个平台的web Component
 + 构建web app 
-+ PWA
++ PWA （workbox）
 + SSR
 + 有ionic团队创建，具体应用已经ionic4上体现
 ## 支持度？
@@ -41,3 +41,4 @@ npm install
 ```
 npm start
 ```
+# Stencil 笔记（二） 基础规则
