@@ -1,6 +1,7 @@
 # Stencil 笔记（二） 基础规则
 ## 装饰器
 + @Component()
+
 与angular中的同名装饰器一样的意思
 + @Prop()
 <br/>
