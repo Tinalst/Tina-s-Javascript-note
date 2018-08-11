@@ -22,10 +22,11 @@
 ## 基础用法
 > stencil 也有自己的一套简单的使用规则，不要将stencil当做框架看待，它只是一个编译器
 1. 获取相关模板
+
 由stencil构建的网站：[stencil-site](https://github.com/ionic-team/stencil-site)
-<br/>
+
 构建APP应用或者component的模板： [stencil-stencil-app-starter](https://github.com/ionic-team/stencil-app-starter)
-<br/>
+
 单纯构建组件的模板：
 [stencil-component-starter](https://github.com/ionic-team/stencil-component-starter)
 > 还有基于node.js的模板，可在ionicGitHub中查看，模板只是为了方便快速的开发，不一定要有
