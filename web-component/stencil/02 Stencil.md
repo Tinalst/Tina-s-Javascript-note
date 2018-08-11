@@ -58,3 +58,5 @@ this.onClose.emit();
 [my-backdrop](https://github.com/Tinalst/Tina-s-Javascript-note/tree/master/web-component/stencil/stencil-basic/src/components/my-backdrop)
 <br/>
 [my-modal-bundle](https://github.com/Tinalst/Tina-s-Javascript-note/tree/master/web-component/stencil/stencil-basic/src/components/my-modal-bundle)
+
+![image](https://github.com/Tinalst/Tina-s-Javascript-note/blob/master/web-component/stencil/images/stencil-modal.gif )
