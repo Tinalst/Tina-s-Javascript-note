@@ -3,7 +3,8 @@
 
 ## 下载[stencil-component-starter](https://github.com/ionic-team/stencil-component-starter)模板，帮助我们快速搭建
 
-    ![images](https://github.com/Tinalst/Tina-s-Javascript-note/blob/master/images/stencil/stencil-component/1.png)
+![images](https://github.com/Tinalst/Tina-s-Javascript-note/blob/master/images/stencil/stencil-component/1.png)
+
 ## 修改模板中的相关配置
 
 ```
