@@ -8,7 +8,7 @@
 从组件外部接收内容的变量声明方式
 <br/>
 ```
-    < my-componet propVar={} >
+< my-componet propVar={} >
 ```
 
 ## @State()
@@ -20,11 +20,13 @@
 ## @Element()
 <br/>
 获取当前组件元素
+
 ```
-  @Element() modalEl: HTMLElement;
-    ...
-   this.modalEl.style.display = 'block';
+@Element() modalEl: HTMLElement;
+...
+this.modalEl.style.display = 'block';
 ```
+
 ## @Method()
 <br/>>
 声明可以作为该HTMLElment的一个API
