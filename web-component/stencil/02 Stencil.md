@@ -9,6 +9,7 @@
 ```
 <my-componet propVar={}>
 ```
+
 ## @State()
 <br/>
 使用@State()声明的变量只能在组件内使用，不能在外部访问到
