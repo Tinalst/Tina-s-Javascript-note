@@ -41,13 +41,12 @@ this.modalEl.style.display = 'block';
 <br/>
 子元素向父元素发射事件 ，类似于angular中的emitEvent
 ```
-  @Event() onClose: EventEmitter;
-  this.onClose.emit();
-
-
-  @Listen('onClose')        closeModalHandler() {
-        this.show = false;
-   }
+@Event() onClose: EventEmitter;
+this.onClose.emit();
+...
+@Listen('onClose')        closeModalHandler() {
+    this.show = false;
+}
 ```
 ##  使用stencil 构建第一个组件——遮罩层
 请查看
