@@ -1,4 +1,5 @@
 # Stencli 笔记(-) 入门介绍
+create 2018-08-11 22:45 tinalim
 ## 是什么？
 > 通俗的来讲，steniljs是一个编译器帮助我们构建适用于任何的JavaScript工程（可以使Angular, React, Vue, 原始写法的工程, Ember等）的Web Component。 
 ## 特性

@@ -1,4 +1,5 @@
 # Stencil 笔记（二） 基础规则
+create 2018-08-11 22:45 tinalim
 ##  装饰器
 ## @Component()
 
