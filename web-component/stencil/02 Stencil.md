@@ -61,3 +61,5 @@ this.onClose.emit();
 [my-modal-bundle](https://github.com/Tinalst/Tina-s-Javascript-note/tree/master/web-component/stencil/stencil-basic/src/components/my-modal-bundle)
 
 ![image](https://github.com/Tinalst/Tina-s-Javascript-note/blob/master/web-component/stencil/images/stencil-modal.gif )
+
+## [stencil 入门（三） 发布自定义组件](https://github.com/Tinalst/Tina-s-Javascript-note/blob/master/web-component/stencil/03%20stencil.md)
