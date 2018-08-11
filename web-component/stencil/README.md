@@ -41,4 +41,4 @@ npm install
 ```
 npm start
 ```
-# Stencil 笔记（二） 基础规则
+# [Stencil 笔记（二） 基础规则](https://github.com/Tinalst/Tina-s-Javascript-note/blob/master/web-component/stencil/02%20Stencil.md)
