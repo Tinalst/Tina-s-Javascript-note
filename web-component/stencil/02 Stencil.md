@@ -8,7 +8,7 @@
 从组件外部接收内容的变量声明方式
 <br/>
 ```
-    <my-componet propVar={}>
+    < my-componet propVar={} >
 ```
 
 ## @State()
