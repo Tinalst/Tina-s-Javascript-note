@@ -1,4 +1,5 @@
 # stencil 入门（三） 发布自己的组件
+create 2018-08-11 23:58 tinalim
 > 本章记录如何使用stencil构建一个简单的组件并使其在原生和Angular应用中同时都能使用 React 和vue的童鞋，可以参照官方文档配置将本章的简单组件进行相应的配置
 
 ## 下载[stencil-component-starter](https://github.com/ionic-team/stencil-component-starter)模板，帮助我们快速搭建

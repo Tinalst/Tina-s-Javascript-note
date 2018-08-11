@@ -8,6 +8,8 @@
 
 > 仓库内资料均由本人编写，转载请注明出处
 
++ [Web Component —— stencil component —— 发布组件并在原生和angular项目中使用](https://github.com/Tinalst/Tina-s-Javascript-note/blob/master/web-component/stencil/03%20stencil.md) [2018-08-12]
+
 + [Web Component —— stencil构建一个简单的模态框组件 —— stencil—basic](https://github.com/Tinalst/Tina-s-Javascript-note/blob/master/web-component/stencil/02%20Stencil.md) [2018-08-11]
 
 + [Web Component —— stencil基础入门 —— stencil—basic](https://github.com/Tinalst/Tina-s-Javascript-note/tree/master/web-component/stencil) [2018-08-11]
