@@ -45,7 +45,7 @@ this.modalEl.style.display = 'block';
 @Event() onClose: EventEmitter;
 this.onClose.emit();
 ...
-@Listen('onClose')        closeModalHandler() {
+@Listen('onClose') closeModalHandler() {
     this.show = false;
 }
 ```
