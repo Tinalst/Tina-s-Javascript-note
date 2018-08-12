@@ -1,4 +1,6 @@
 # 03 git 分支
+create 2018-08-12 22:55 by tinalim
+
 ## git branch 示意图
 ![images](https://github.com/Tinalst/Tina-s-Javascript-note/blob/master/images/git/03-1.png)
 
