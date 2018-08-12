@@ -8,7 +8,7 @@
 
 > 仓库内资料均由本人编写，转载请注明出处
 
-+ [ 02 远程仓库]() [2018-08-12]
++ [ 02 远程仓库](https://github.com/Tinalst/Tina-s-Javascript-note/blob/master/git/02%20git.md) [2018-08-12]
 
 + [git 常用命令列表](https://github.com/Tinalst/Tina-s-Javascript-note/tree/master/git) [2018-08-12]
 

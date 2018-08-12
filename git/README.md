@@ -72,4 +72,4 @@ git push origin branch-name
 ![images](https://github.com/Tinalst/Tina-s-Javascript-note/blob/master/images/git/01-1.png)
 
 
-# [ 02 远程仓库]()
+# [02 远程仓库](https://github.com/Tinalst/Tina-s-Javascript-note/blob/master/git/02%20git.md)
