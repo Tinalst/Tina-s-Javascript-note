@@ -24,7 +24,7 @@ git commit -m "message"（不需要push）
 git merge branch-name （将某分支和master进行合并）
 
 // 删除分支
-git branch -v branch-name
+git branch -d branch-name
 
 // 查看分支合并图
 git log --graph 
