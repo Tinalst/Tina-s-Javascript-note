@@ -57,4 +57,4 @@ git rm file-name
 ```
 
 ## git示意图
-![images]()
+![images](https://github.com/Tinalst/Tina-s-Javascript-note/blob/master/images/git/01-1.png)
