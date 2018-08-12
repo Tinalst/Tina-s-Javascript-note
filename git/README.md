@@ -54,7 +54,22 @@ git checkout -b branch-name
 
 // 删除文件
 git rm file-name
+
+// 本地仓库关联远程仓库
+git remote add xxxxxxxxx
+
+// 本地克隆远程新的仓库
+git clone xxxxxxxxx
+
+// 本地库内容推送到远程仓库
+git push -u origin branch-name (把本地master与远程的master分支关联)
+
+// 非第一次推送
+git push origin branch-name
 ```
 
 ## git示意图
 ![images](https://github.com/Tinalst/Tina-s-Javascript-note/blob/master/images/git/01-1.png)
+
+
+# [ 02 远程仓库]()
