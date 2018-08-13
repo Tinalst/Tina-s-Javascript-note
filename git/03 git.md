@@ -71,4 +71,4 @@ git stash drop
 // 删除没有被合并过的分支
 git branch -D branch-name
 ```
-# [04 多人协作]()
+# [04 多人协作](https://github.com/Tinalst/Tina-s-Javascript-note/blob/master/git/04%20git.md)

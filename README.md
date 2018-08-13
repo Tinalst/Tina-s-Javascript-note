@@ -8,6 +8,8 @@
 
 > 仓库内资料均由本人编写，转载请注明出处
 
++  [04 多人协作](https://github.com/Tinalst/Tina-s-Javascript-note/blob/master/git/04%20git.md) [2018-08-13]
+
 +  [ 03 git 分支](https://github.com/Tinalst/Tina-s-Javascript-note/blob/master/git/03%20git.md) [2018-08-12]
 
 + [ 02 远程仓库](https://github.com/Tinalst/Tina-s-Javascript-note/blob/master/git/02%20git.md) [2018-08-12]
