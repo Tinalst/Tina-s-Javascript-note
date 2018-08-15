@@ -9,6 +9,8 @@
 
 > 仓库内资料均由本人编写，转载请注明出处
 
++ [webgl- threejs- 外部模型导入添加监听事件（原生JS方法）](https://github.com/Tinalst/Tina-s-Javascript-note/tree/master/webgl/threejs/three-onEvent-master) [2018-08-15]
+
 +  [04 多人协作](https://github.com/Tinalst/Tina-s-Javascript-note/blob/master/git/04%20git.md) [2018-08-13]
 
 +  [ 03 git 分支](https://github.com/Tinalst/Tina-s-Javascript-note/blob/master/git/03%20git.md) [2018-08-12]
