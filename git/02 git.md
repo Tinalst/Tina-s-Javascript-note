@@ -4,7 +4,7 @@ create 2018-08-12 by tinalim
 ## 与远程仓库建立关联前的必要条件
 1. 创建SSH Key
 ```
-ssh_keyen -t rsa -C "your email"
+ssh-keygen -t rsa -C "your_email@example.com"
 ```
 
 2. 添加SSH Key 
