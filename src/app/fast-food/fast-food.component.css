@@ -1,0 +1,7 @@
+/*设置宽度为视口大小*/
+canvas {
+  width: 100vw;
+  height: 100vh;
+  display: block;
+  border: 1px solid red;
+}

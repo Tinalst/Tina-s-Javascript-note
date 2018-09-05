@@ -5,10 +5,20 @@
   <title>TypeThreeForAngular</title>
   <base href="/">
 
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no" />
   <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <style>
+    /*移除边界*/
+    body{
+      border: 0;
+      background-color: white;
+      margin: 0;
+    }
+  </style>
 </head>
 <body>
   <app-root></app-root>
+  <!--<script src="assets/lib/inflate.min.js"></script>-->
+  <script src="http://statics.compelcode.com/three/js/inflate.min.js"></script>
 </body>
 </html>
