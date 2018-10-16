@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        #test1 {
+            display: none;
+        }
+        #dropbox {
+            width: 400px;
+            height: 400px;
+            border: 2px salmon dashed;
+            background: silver;
+        }
+    </style>
+</head>
+<body>
+    <input type="file" id="test1" onchange="getFileList()" multiple>
+    <button onclick="setInputClick()">自定义选择文件按钮</button>
+    <div id="dropbox">
+        <p>请将文件拖入可视区域</p>
+    </div>
+    <p>以下是文件预览</p>
+    <div id="imagePrevBox"></div>
+    <script src="index.js"></script>
+</body>
+</html>
