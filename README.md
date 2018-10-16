@@ -8,7 +8,7 @@
 ### 更新日志
 
 > 仓库内资料均由本人编写，转载请注明出处
-+ [javascript - 文件拖拽访问与预览](https://github.com/Tinalst/Tina-s-Javascript-note/tree/master/javascript/access-file)
++ [javascript - 文件拖拽访问与预览DEMO](https://github.com/Tinalst/Tina-s-Javascript-note/tree/master/javascript/access-file)
 + [javascript - 懒加载图片原理及DEMO](https://github.com/Tinalst/Tina-s-Javascript-note/tree/master/javascript/images-lazy-load) [2018-10-11]
 
 + [webgl- threejs- 外部模型导入添加监听事件（原生JS方法）](https://github.com/Tinalst/Tina-s-Javascript-note/tree/master/webgl/threejs/three-onEvent-master) [2018-08-15]
