@@ -33,9 +33,11 @@
             
         }
         .drop-box:hover p:after {
-            border: 6px solid transparent;
-            border-bottom-color: blueviolet; 
+            /* border: 6px solid transparent;
+            border-bottom-color: blueviolet;  */
             top: 5px;  
+            transform: rotate(270deg);
+            transition: border-bottom-color .2s;
         }
         .drop-box:hover {
             cursor: pointer;
@@ -61,6 +63,7 @@
 
         .drop-box:hover .menu {
             display: block;
+            transform: display 2s;
         }
 
     </style>
