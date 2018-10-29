@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        .drop-box {
+            width: 150px;
+            text-align: center;
+            border-radius: 10px;
+            box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.175);
+            overflow: hidden;
+        }
+        .drop-box p {
+            height: 24px;
+            position: relative;
+        }
+        .drop-box p:after {
+            content: '';
+            border: 6px solid transparent;
+            border-top-color: blueviolet;
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            width: 0;
+            height: 0;
+            
+        }
+        .drop-box:hover p:after {
+            border: 6px solid transparent;
+            border-bottom-color: blueviolet; 
+            top: 5px;  
+        }
+        .drop-box:hover {
+            cursor: pointer;
+        }
+
+        ul {
+            list-style: none;
+        }
+
+        .drop-box .menu li {
+            height: 35px;
+            line-height: 35px;
+        }
+
+        .drop-box .menu li:hover {
+            background-color: coral;
+            color: aliceblue;
+        }
+
+        .drop-box .menu {
+            display: none;
+        }
+
+        .drop-box:hover .menu {
+            display: block;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="drop-box">
+        <p>最近时间</p>
+        <ul class="menu">
+            <li>最近时间</li>
+            <li>评论最多</li>
+            <li>被赞最多</li>
+        </ul>
+    </div>
+</body>
+</html>
