@@ -8,6 +8,7 @@
 ### 更新日志
 
 > 仓库内资料均由本人编写，转载请注明出处
++ [typescrit - 函数式泛型 | 接口泛型 理解](https://github.com/Tinalst/Tina-s-Javascript-note/tree/master/Typescript/generic) [2018-11-18]
 + [css-trick 下拉菜单](https://github.com/Tinalst/Tina-s-Javascript-note/blob/master/css-trick/%E4%B8%8B%E6%8B%89%E8%8F%9C%E5%8D%95/index.html) [2018-10-29]
 + [svg - 动态划线动画实现原理](https://github.com/Tinalst/Tina-s-Javascript-note/tree/master/svg-trick/%E5%8A%A8%E6%80%81%E5%88%92%E7%BA%BF%E5%8A%A8%E7%94%BB) [2018-10-26]
 + [javascript - 文件拖拽访问与预览DEMO](https://github.com/Tinalst/Tina-s-Javascript-note/tree/master/javascript/access-file) [2018-10-16]
@@ -35,4 +36,3 @@
 
 
 
-    
